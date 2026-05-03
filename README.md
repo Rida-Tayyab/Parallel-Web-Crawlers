@@ -1,4 +1,4 @@
-# assign3-pdc: Parallel Web Crawlers
+# Assignment3-pdc: Parallel Web Crawlers
 
 Coursework project comparing **four** crawl strategies over the same frontier: **sequential** BFS (rate-limited), **multi-threaded** BFS with a work-stealing queue and load monitor, **multiprocessing** with a managed shared frontier, and **Ray** actors (master/worker coordination). Supporting pieces include URL utilities, CSV metrics collection, Seaborn/Matplotlib figures, and a single CLI entrypoint.
 
